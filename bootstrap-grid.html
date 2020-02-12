@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="custom.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Learn Bootstrap</title>
+        <meta name="description" content="Programming with Praveen">
+        <meta name="author" content="Praveen Kumar Yalamaddi">  
+    </head>
+<body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <header>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="align-center">Learn Bootstrap</h1>
+                <h6 class="align-center">Bootstrap Grid System and Respective classes</h6>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <p>Based on the view port size bootstrap will support max of 12 columns</p>
+        <p>by using row class we can create grid and define respective columns under that</p>
+        <p>There mainly we use three column classes
+            <p><b> col-lg-* :</b> lg stands for large, for large screens we can use this class</p>
+            <p><b>col-md-* :</b> md stands for medium , for medium and large screens we can use this class</p>
+            <p><b>col-xs-* :</b> xs stands for extra small, for small,medium and large we can use this class</p>
+            <p>along with this we have extra large as well</p>
+        </p>
+    </div>
+    <div >
+        <p class="align-center"><b>DEMO AREA</b></p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 color-b">col-lg-4</div>
+                <div class="col-lg-4 color-g">col-lg-4</div>
+                <div class="col-lg-4 color-gy">col-lg-4</div>
+            </div>
+        </div>
+
+        <div class="container color-green">
+            <div class="row">
+                <div class="col-md-5 color-g">col-md-5</div>
+                <div class="col-md-5 color-gy">col-md-5</div>
+                <div class="col-md-2 color-b">col-md-2</div>
+            </div>
+        </div>
+
+        <div class="container color-greenyellow">
+            <div class="row">
+                <div class="col-sm-2 color-gy">col-sm-2</div>
+                <div class="col-sm-6 color-b">col-sm-2</div>
+                <div class="col-sm-4 color-g">col-sm-8</div>
+            </div>
+        </div>
+        <hr>
+        <div class="align-center">Nesting inside row</div>
+
+        <div class="container color-greenyellow">
+            <div class="row">
+                <div class="col-sm-6 color-gy">
+                    col-sm-6
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg color-b">col-lg</div>
+                            <div class="col-lg color-b">col-lg</div>
+                            <div class="col-lg color-b">col-lg</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 color-b">col-sm-2</div>
+                <div class="col-sm-4 color-g">col-sm-4</div>
+            </div>
+
+            <hr>
+
+        <div class="align-center">off set example</div>
+
+            <div class="row color-black">
+                <div class="col-lg-offset-5 col-lg-5 color-gy">col-lg-offset-5</div>
+             <!--   <div class="col-lg-8 color-b">col-lg-8</div>
+                <div class="col-lg-2 color-g">col-lg-2</div> -->
+            </div>
+        </div>
+        
+
+    </div>
+
+    <footer>
+        <div class="container align-end">
+            <p>
+                <small >
+                    author: <a href="#">Praveen Kumar Yalamaddi</a>
+                </small>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

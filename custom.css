@@ -5,3 +5,19 @@
 .align-end{
     text-align: end;
 }
+
+.color-b{
+    background-color: blueviolet;
+}
+
+.color-g{
+    background-color: green;
+}
+
+.color-gy{
+    background-color: greenyellow;
+}
+
+.color-black{
+    background-color: black;
+}
